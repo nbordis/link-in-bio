@@ -41,16 +41,24 @@
         margin-bottom: 30px;
         text-align: center;
       }
-      social-icons-row{
+      .social-icons-row{
         margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
       }
       .item {
         margin-bottom: 30px;
         background-color: rgba(149, 123, 173, 0.5);
+        display: flex;
+        align-items: center;
       }
       .main-container {
         max-width: 640px;
         margin:auto;
+      }
+      .link-text {
+        text-align: center;
+        flex-grow: 1;
       }
     </style>
   </head>
@@ -69,21 +77,24 @@
         <a href="https://discordapp.com/users/nbordis" target="_blank">
           Discord
         </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          Instagram
+        </a>
       </div>
       <div class="links-row">
         <div class="item">
           <img class="thumbnail" src="/photos/aamir-suhail-ATlRqTCbvV4-unsplash.jpg" alt="The sun in the palm of a person's hand">
-          <a href="https://www.usatoday.com/story/life/2023/11/30/positive-quotes-to-inspire/11359498002/" target="_blank">
+          <a class="link-text" href="https://www.usatoday.com/story/life/2023/11/30/positive-quotes-to-inspire/11359498002/" target="_blank">
             50 Motovational Quotes
           </a>
         </div>
         <div class="item">
           <img class="thumbnail" src="/photos/priscilla-du-preez-s5KT5CS1zbA-unsplash.jpg" alt="A stack of old books">
-          <a href="https://add.org/tips-for-studying-with-adhd/" target="_blank">How To Study With ADHD</a>
+          <a class="link-text" href="https://add.org/tips-for-studying-with-adhd/" target="_blank">How To Study With ADHD</a>
         </div>
         <div class="item">
           <img class="thumbnail" src="/photos/the grappler's diary.jpeg" alt="The grappler's diary logo">
-          <a href="https://thegrapplersdiary.com/" target="_blank">Check Out The Grappler's Diary</a>
+          <a class="link-text" href="https://thegrapplersdiary.com/" target="_blank">Check Out The Grappler's Diary</a>
         </div>
       </div> <!--links row-->
  </div> <!--main container-->
