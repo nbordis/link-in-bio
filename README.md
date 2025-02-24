@@ -1,3 +1,2 @@
-# static-html-template
-
-Use this template to create static HTML websites and deploy them on Render.
+# Link-in-bio
+My first coding project. This was meant to replicate the linktree link in bio pages.
